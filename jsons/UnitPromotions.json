@@ -31,7 +31,9 @@
     "uniques": [
         "[+300]% Strength <vs [Cannon] units> <when attacking>",
       "[+300]% Strength <vs [Howitzer] units> <when attacking>",
-      "[+1] Range", 
+      "[+1] Range <vs [Cannon] units>",
+      "[+1] Range <vs [Howitzer] units>",
+      "consumes [+1] [Coal]"
     ],
     "unitTypes": ["Infantry"]
   },
@@ -45,7 +47,7 @@
   },
   {
     "name": "LargeDiameter",
-    "prerequisites": ["MachineGun, Mortar"],
+    "prerequisites": ["MachineGun, Mortar, AntiTank"],
     "uniques": [
       "[+35]% Strength <when attacking>"
     ],
