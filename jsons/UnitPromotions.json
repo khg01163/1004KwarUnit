@@ -10,7 +10,8 @@
       "[-20]% Strength <when attacking>",
       "[+2] additional attacks per turn",
       "[+1] Range",
-      "[-1] Movement"
+      "[-1] Movement",
+      "Consumes [+1] [Iron]"
     ],
     "unitTypes": ["Infantry"]
   },
@@ -21,7 +22,7 @@
       "[+100]% Strength <vs [MachineGun] units> <when attacking>",
       "[+1] Range",
       "[-1] Movement",
-      "consumes [+1] [Coal]",
+      "Consumes [+1] [Coal]",
       "Ranged attacks may be performed over obstacles"
     ],
     "unitTypes": ["Infantry"]
@@ -33,7 +34,7 @@
       "[+300]% Strength <vs [Howitzer] units> <when attacking>",
       "[+1] Range <vs [Cannon] units>",
       "[+1] Range <vs [Howitzer] units>",
-      "consumes [+1] [Coal]"
+      "Consumes [+1] [Coal]"
     ],
     "unitTypes": ["Infantry"]
   },
@@ -80,7 +81,7 @@
     "name": "Heavy",
     "uniques": [
         "[+5] additional attacks per turn",
-        "consumes [+4] [Iron]",
+        "Consumes [+4] [Iron]",
         "[+100]% Strength <when defending>",
         "[+4] Range"
     ],
@@ -91,16 +92,101 @@
     "uniques": [
         "[+3] additional attacks per turn",
         "[-30]% Strength <when attacking>",
-        "consumes [+2] [Iron]"
+        "Consumes [+2] [Iron]"
     ],
     "unitTypes": ["MachineGun"]
   },
   {
-    "name": "Basement",
+    "name": "Basement I",
     "prerequisites": ["Heavy", "Standard"],
     "uniques": [
-        "[+30]% Strength <when defending> <when fighting in [Fort] tiles>"
+        "Can build [Fort] improvements on tiles",
+        "[+20]% Strength <when defending> <when fighting in [Fort] tiles>"
     ],
     "unitTypes": ["MachineGun"]
   },
+  {
+    "name": "Basement II",
+    "prerequisites": ["Basement I"],
+    "uniques": [
+         "[+30]% Strength <when defending> <when fighting in [Fort] tiles>"
+    ],
+    "unitTypes": ["MachineGun"]
+  },
+  {
+    "name": "Enhancement I",
+    "prerequisites": ["Heavy", "Standard"],
+    "uniques": [
+        "[+1] Range"
+    ],
+    "unitTypes": ["MachineGun"]
+  },
+  {
+    "name": "Enhancement II",
+    "prerequisites": ["Enhancement I"],
+    "uniques": [
+        "[+2] additional attacks per turn"
+    ],
+    "unitTypes": ["MachineGun"]
+  },
+
+
+
+  
+  {
+    "name": "Standard",
+    "uniques": [
+        "[+1] Movement"
+    ],
+    "unitTypes": ["Howitzer"]
+  },
+  {
+    "name": "Heavy",
+    "uniques": [
+        "[+50]% Strength",
+        "Cannot attack <when fighting in [Fort] tiles",
+        "Must set up to ranged attack"
+    ],
+    "unitTypes": ["Howitzer"]
+  },
+  {
+    "name": "RangeAddition I",
+    "prerequisites": ["Heavy", "Standard"],
+    "uniques": [
+        "[+1] Range"
+    ],
+    "unitTypes": ["Howitzer"]
+  },
+  {
+    "name": "RangeAddition II",
+    "prerequisites": ["RangeAddition I"],
+    "uniques": [
+       "[+1] Range"
+    ],
+    "unitTypes": ["Howitzer"]
+  },
+  {
+    "name": "LargeDiameter I",
+    "prerequisites": ["Heavy", "Standard"],
+    "uniques": [
+        "[+15]% Strength <when attacking>"
+    ],
+    "unitTypes": ["Howitzer"]
+  },
+  {
+    "name": "LargeDiameter II",
+    "prerequisites": ["LargeDiameter I"],
+    "uniques": [
+        "[+15]% Strength <when attacking>"
+    ],
+    "unitTypes": ["Howitzer"]
+  },
+  {
+    "name": "ToT",
+    "prerequisites": ["LargeDiameter II", "RangeAddition II"],
+    "uniques": [
+        "[+1] additional attacks per turn"
+    ],
+    "unitTypes": ["Howitzer"]
+  }
 ]
