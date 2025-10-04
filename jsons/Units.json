@@ -1,0 +1,44 @@
+[
+    {
+      "name"://보병,
+      "unitType": "Infantry",
+      "movement": 3,
+      "strength": 1,
+      "rangedStrength": 20,
+      "range": 1,
+      "cost": 300,
+      "uniques": [
+        
+      ],
+      "promotions": //1,
+      "attackSound":"shot"
+    },
+     {
+      "name"://기관총,
+      "unitType": "MachineGun",
+      "movement": 3,
+      "strength": 1,
+      "rangedStrength": 20,
+      "range": 1,
+      "cost": 300,
+      "uniques": [
+        
+      ],
+      "promotions": //1,
+      "attackSound":"machinegun"
+    }, 
+      {
+      "name"://경곡사포,
+      "unitType": "Howitzer",
+      "movement": 3,
+      "strength": 1,
+      "rangedStrength": 20,
+      "range": 1,
+      "cost": 300,
+      "uniques": [
+        
+      ],
+      "promotions": //1,
+      "attackSound":"shot"
+    }
+]
