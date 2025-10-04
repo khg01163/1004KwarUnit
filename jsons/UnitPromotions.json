@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Skilled I",
+    "uniques": ["[+35]% Strength"],
+    "unitTypes": ["Infantry"]
+  },
+  {
+    "name": "MachineGun",
+    "uniques": [
+      "[-20]% Strength <when attacking>",
+      "[+2] additional attacks per turn",
+      "[+1] Range",
+      "[-1] Movement"
+    ],
+    "unitTypes": ["Infantry"]
+  },
+  {
+    "name": "Mortar",
+    "uniques": [
+      "[+100]% Strength <vs [Infantry] units> <when attacking>",
+      "[+100]% Strength <vs [MachineGun] units> <when attacking>",
+      "[+1] Range",
+      "[-1] Movement",
+      "consumes [+1] [Coal]",
+      "Ranged attacks may be performed over obstacles"
+    ],
+    "unitTypes": ["Infantry"]
+  },
+  {
+    "name": "Skilled II",
+    "prerequisites": ["Skilled I"],
+    "uniques": [
+        "Unit will heal every turn, even if it performs an action"
+    ],
+    "unitTypes": ["Infantry"]
+  },
+  {
+    "name": "LargeDiameter",
+    "prerequisites": ["MachineGun, Mortar"],
+    "uniques": [
+      "[+35]% Strength <when attacking>"
+    ],
+    "unitTypes": ["Infantry"]
+  },
+  {
+    "name": "Mechanize",
+    "prerequisites": ["Skilled II", "LargeDiameter"],
+    "uniques": [
+      "[+2] Movement",
+      "[+100]% Strength <vs [Infantry] units> <when defending>",
+      "[+100]% Strength <vs [MachineGun] units> <when defending>"
+    ],
+    "unitTypes": ["Infantry"]
+      },
+  {
+    "name": "Observers",
+    "prerequisites": ["Skilled II"],
+    "uniques": [
+      "[+1] Sight",
+      "[+25]% Strength",
+      "[+25]% evasion"
+    ],
+    "unitTypes": ["Infantry"]
+  }
+]
