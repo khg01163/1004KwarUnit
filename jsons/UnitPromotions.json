@@ -136,13 +136,15 @@
   {
     "name": "Standard",
     "uniques": [
-        "[+1] Movement"
+        "[+1] Movement",
+        "Consumes [+1] [Coal]"
     ],
     "unitTypes": ["Howitzer"]
   },
   {
     "name": "Heavy",
     "uniques": [
+        "Consumes [+3] [Coal]",
         "[+50]% Strength",
         "Cannot attack <when fighting in [Fort] tiles",
         "Must set up to ranged attack"
@@ -188,5 +190,67 @@
         "[+1] additional attacks per turn"
     ],
     "unitTypes": ["Howitzer"]
+  },
+
+
+
+
+  {
+    "name": "Little",
+    "uniques": [
+        "[+1] Movement",
+    ],
+    "unitTypes": ["Cannon"]
+  },
+  {
+    "name": "Heavy",
+    "uniques": [
+        "Consumes [+2] [Aluminum]",
+        "Cannot attack <when fighting in [Fort] tiles",
+        "Must set up to ranged attack",
+        "[+20]% Strength <when attacking>"
+    ],
+    "unitTypes": ["Cannon"]
+  },
+  {
+    "name": "Shield I",
+    "prerequisites": ["Heavy", "Little"],
+    "uniques": [
+        "[+15]% Strength <when defending>"
+    ],
+    "unitTypes": ["Cannon"]
+  },
+  {
+    "name": "Shield II",
+    "prerequisites": [Shield I],
+    "uniques": [
+        "[+15]% Strength <when attacking>"
+    ],
+    "unitTypes": ["Cannon"]
+  },
+  {
+    "name": "LargeDiameter I",
+    "prerequisites": ["Heavy", "Little"],
+    "uniques": [
+        "[+15]% Strength <when attacking>"
+    ],
+    "unitTypes": ["Cannon"]
+  },
+  {
+    "name": "LargeDiameter II",
+    "prerequisites": ["LargeDiameter I"],
+    "uniques": [
+        "[+15]% Strength <when attacking>"
+    ],
+    "unitTypes": ["Cannon"]
+  },
+  {
+    "name": "Enhancement",
+    "prerequisites": ["LargeDiameter II", "Shield II"],
+    "uniques": [
+        "[+15]% Strength",
+        "[+25]% evasion"
+    ],
+    "unitTypes": ["Cannon"]
   }
 ]
