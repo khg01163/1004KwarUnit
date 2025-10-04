@@ -76,5 +76,31 @@
 
 
 
-
+  {
+    "name": "Heavy",
+    "uniques": [
+        "[+5] additional attacks per turn",
+        "consumes [+4] [Iron]",
+        "[+100]% Strength <when defending>",
+        "[+4] Range"
+    ],
+    "unitTypes": ["MachineGun"]
+  },
+  {
+    "name": "Standard",
+    "uniques": [
+        "[+3] additional attacks per turn",
+        "[-30]% Strength <when attacking>",
+        "consumes [+2] [Iron]"
+    ],
+    "unitTypes": ["MachineGun"]
+  },
+  {
+    "name": "Basement",
+    "prerequisites": ["Heavy", "Standard"],
+    "uniques": [
+        "[+30]% Strength <when defending> <when fighting in [Fort] tiles>"
+    ],
+    "unitTypes": ["MachineGun"]
+  },
 ]
