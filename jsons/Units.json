@@ -3,7 +3,7 @@
       "name"://보병,
       "unitType": "Infantry",
       "movement": 3,
-      "strength": 1,
+      "strength": 20,
       "rangedStrength": 20,
       "range": 1,
       "cost": 300,
@@ -13,26 +13,119 @@
       "promotions": //1,
       "attackSound":"shot"
     },
+    {
+      "name"://특공대,
+      "unitType": "Infantry",
+      "movement": 3,
+      "strength": 20,
+      "rangedStrength": 20,
+      "range": 1,
+      "cost": 300,
+      "uniques": [],
+      "attackSound":"shot"
+    },
      {
       "name"://기관총,
       "unitType": "MachineGun",
       "movement": 3,
-      "strength": 1,
-      "rangedStrength": 20,
+      "strength": 25,//~50
+      "rangedStrength": 15,//~30
+      "range": 3,
+      "cost": 300,
+      "uniques": [
+        
+      ],
+      "attackSound":"machinegun"
+    }, 
+      {
+      "name"://곡사포,
+      "unitType": "Howitzer",
+      "movement": 3,
+      "strength": 40,//~60
+      "rangedStrength": 40,//~60
       "range": 1,
       "cost": 300,
       "uniques": [
         
       ],
       "promotions": //1,
-      "attackSound":"machinegun"
-    }, 
-      {
-      "name"://경곡사포,
+      "attackSound":"shot"
+    },
+    {
+      "name"://자주곡사포,
       "unitType": "Howitzer",
       "movement": 3,
-      "strength": 1,
-      "rangedStrength": 20,
+      "strength": 50,//~80
+      "rangedStrength": 40,//~60
+      "range": 1,
+      "cost": 300,
+      "uniques": [
+        
+      ],
+      "promotions": //1,
+      "attackSound":"shot"
+    },
+    {
+        "name": //직사포,
+        "unitType": "Cannon",
+        "movement": 3,
+        "strength": 35,//~50
+        "rangedStrength": 35,//~45
+        "range": 1,
+        "cost": 300,
+        "uniques": [
+        
+          ],
+        "promotions": //1,
+        "attackSound":"shot"
+    },
+    {
+        "name": //전차,
+        "unitType": "Cannon",
+        "movement": 3,
+        "strength": 90,//~140
+        "rangedStrength": 50,//~60
+        "range": 1,
+        "cost": 300,
+        "uniques": [
+        
+          ],
+        "promotions": //1,
+        "attackSound":"shot"
+    },
+    {
+      "name"://전투기,
+      "unitType": "Flight",
+      "movement": 12,
+      "strength": 22,
+      "rangedStrength": 30,
+      "range": 1,
+      "cost": 300,
+      "uniques": [
+        
+      ],
+      "attackSound":"shot"
+    },
+    {
+      "name"://공격기,
+      "unitType": "Flight",
+      "movement": 10,
+      "strength": 18,
+      "rangedStrength": 22,
+      "range": 1,
+      "cost": 300,
+      "uniques": [
+        
+      ],
+      "promotions": //1,
+      "attackSound":"shot"
+    },
+    {
+      "name"://폭격기,
+      "unitType": "Howitzer",
+      "movement": 8,
+      "strength": 50,
+      "rangedStrength": 70,
       "range": 1,
       "cost": 300,
       "uniques": [
