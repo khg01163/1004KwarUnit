@@ -27,6 +27,15 @@
     "unitTypes": ["Infantry"]
   },
   {
+    "name": "AntiTank",
+    "uniques": [
+        "[+300]% Strength <vs [Cannon] units> <when attacking>",
+      "[+300]% Strength <vs [Howitzer] units> <when attacking>",
+      "[+1] Range", 
+    ],
+    "unitTypes": ["Infantry"]
+  },
+  {
     "name": "Skilled II",
     "prerequisites": ["Skilled I"],
     "uniques": [
