@@ -1,1 +1,27 @@
-
+[
+  {
+    "name": "Infantry",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "MachineGun",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Cannon",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Howitzer",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Flight"
+    "movementType": "Land",
+    "uniques": []
+  }
+]
