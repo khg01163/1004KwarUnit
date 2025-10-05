@@ -140,7 +140,7 @@
 
 	{
 		"name": "Landship",//76미리
-		"unitType": "MovingCanon",
+		"unitType": "Howitzer",
 		"movement": 4,
 		"strength": 27,
 	    "range": 7,
