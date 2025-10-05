@@ -249,8 +249,17 @@
     "prerequisites": ["LargeDiameter II", "Shield II"],
     "uniques": [
         "[+15]% Strength",
-        "[+25]% evasion"
+        "[+15]% evasion"
     ],
     "unitTypes": ["Cannon"]
-  }
+  },
+
+
+
+  {
+    "name": "Armored",
+    "uniques": [
+        "[+10]% evasion"
+    ]
+  },
 ]
