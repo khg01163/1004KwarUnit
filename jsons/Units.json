@@ -6,7 +6,7 @@
       "strength": 20,
       "rangedStrength": 20,
       "range": 1,
-      "cost": 300,
+      "cost": 350,
       "uniques": [
         
       ],
@@ -20,7 +20,7 @@
       "strength": 20,
       "rangedStrength": 20,
       "range": 1,
-      "cost": 300,
+      "cost": 8000000,
       "uniques": [],
       "attackSound":"shot"
     },
@@ -31,7 +31,7 @@
       "strength": 25,//~50
       "rangedStrength": 15,//~30
       "range": 3,
-      "cost": 300,
+      "cost": 500,
       "uniques": [
         
       ],
@@ -44,7 +44,7 @@
       "strength": 40,//~60
       "rangedStrength": 40,//~60
       "range": 1,
-      "cost": 300,
+      "cost": 500,
       "uniques": [
         
       ],
@@ -58,11 +58,12 @@
       "strength": 50,//~80
       "rangedStrength": 40,//~60
       "range": 1,
-      "cost": 300,
+      "cost": 800,
+      "requiredResource": "Oil",
       "uniques": [
         
       ],
-      "promotions": //1,
+      "promotions": ["Armored"],
       "attackSound":"shot"
     },
     {
@@ -72,7 +73,7 @@
         "strength": 35,//~50
         "rangedStrength": 35,//~45
         "range": 1,
-        "cost": 300,
+        "cost": 500,
         "uniques": [
         
           ],
@@ -86,36 +87,39 @@
         "strength": 90,//~140
         "rangedStrength": 50,//~60
         "range": 1,
-        "cost": 300,
+        "cost": 900,
+        "requiredResource":"Aluminium:3",
         "uniques": [
         
           ],
-        "promotions": //1,
+        "promotions": ["Armored"],
         "attackSound":"shot"
     },
     {
       "name"://전투기,
       "unitType": "Flight",
+      "requiredResource": "Oil:3",
       "movement": 12,
       "strength": 22,
       "rangedStrength": 30,
       "range": 1,
-      "cost": 300,
+      "cost": 1000,
       "uniques": [
-        
+        "[+75]% evasion"
       ],
       "attackSound":"shot"
     },
     {
       "name"://공격기,
       "unitType": "Flight",
+      "requiredResource": "Oil:3",
       "movement": 10,
       "strength": 18,
       "rangedStrength": 22,
-      "range": 1,
+      "range": 1000,
       "cost": 300,
       "uniques": [
-        
+        "[+60]% evasion"
       ],
       "promotions": //1,
       "attackSound":"shot"
@@ -123,13 +127,14 @@
     {
       "name"://폭격기,
       "unitType": "Howitzer",
+      "requiredResource": "Oil:5",
       "movement": 8,
       "strength": 50,
       "rangedStrength": 70,
       "range": 1,
-      "cost": 300,
+      "cost": 1500,
       "uniques": [
-        
+        "[+60]% evasion"
       ],
       "promotions": //1,
       "attackSound":"shot"
