@@ -235,7 +235,7 @@
 		"strength": 10,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Dynamite",
+		"obsoleteTech": "Computers",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
@@ -248,7 +248,7 @@
 		"range": 2,
 		"cost": 1800,
 	    "requiredResource":"Oil:3",
-		"requiredTech": "Conputers",
+		"requiredTech": "Computers",
 	    "uniques":["[+60]% evasion"],
 		"attackSound": "machinegun"
 	}
