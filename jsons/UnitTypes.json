@@ -2,12 +2,17 @@
   {
     "name": "Infantry",
     "movementType": "Land",
-    "uniques": []
+    "uniques": [
+      "Can build [Fort] improvements on tiles",
+      "[-200]% Strength <vs Armored> <when attacking>"
+    ]
   },
   {
     "name": "MachineGun",
     "movementType": "Land",
-    "uniques": []
+    "uniques": [
+      "[-200]% Strength <vs Armored> <when attacking>"
+    ]
   },
   {
     "name": "Cannon",
@@ -17,7 +22,9 @@
   {
     "name": "Howitzer",
     "movementType": "Land",
-    "uniques": []
+    "uniques": [
+      "Ranged attacks may be performed over obstacles"
+    ]
   },
   {
     "name": "Flight"
