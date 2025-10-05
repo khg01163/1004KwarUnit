@@ -76,7 +76,7 @@
 
 
   {
-    "name": "Heavy",
+    "name": "HeavyForm",
     "uniques": [
         "[+200]% Strength <vs Armored> <when attacking>",
         "[+5] additional attacks per turn",
@@ -87,7 +87,7 @@
     "unitTypes": ["MachineGun"]
   },
   {
-    "name": "Standard",
+    "name": "StandardForm",
     "uniques": [
         "[+3] additional attacks per turn",
         "[-30]% Strength <when attacking>",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Basement I",
-    "prerequisites": ["Heavy", "Standard"],
+    "prerequisites": ["HeavyForm", "StandardForm"],
     "uniques": [
         "Can build [Fort] improvements on tiles",
         "[+20]% Strength <when defending> <when fighting in [Fort] tiles>"
@@ -114,7 +114,7 @@
   },
   {
     "name": "Enhancement I",
-    "prerequisites": ["Heavy", "Standard"],
+    "prerequisites": ["HeavyForm", "StandardForm"],
     "uniques": [
         "[+1] Range"
     ],
@@ -133,7 +133,7 @@
 
   
   {
-    "name": "Standard",
+    "name": "StandardDiameter",
     "uniques": [
         "[+1] Movement",
         "Consumes [+1] [Coal]"
@@ -141,7 +141,7 @@
     "unitTypes": ["Howitzer"]
   },
   {
-    "name": "Heavy",
+    "name": "HeavyDiameter",
     "uniques": [
         "Consumes [+3] [Coal]",
         "[+50]% Strength",
@@ -152,7 +152,7 @@
   },
   {
     "name": "RangeAddition I",
-    "prerequisites": ["Heavy", "Standard"],
+    "prerequisites": ["HeavyDiameter", "StandardDiameter"],
     "uniques": [
         "[+1] Range"
     ],
@@ -168,7 +168,7 @@
   },
   {
     "name": "LargeDiameter I",
-    "prerequisites": ["Heavy", "Standard"],
+    "prerequisites": ["HeavyDiameter", "StandardDiameter"],
     "uniques": [
         "[+15]% Strength <when attacking>"
     ],
@@ -195,14 +195,14 @@
 
 
   {
-    "name": "Little",
+    "name": "LittleGun",
     "uniques": [
         "[+1] Movement",
     ],
     "unitTypes": ["Cannon"]
   },
   {
-    "name": "Heavy",
+    "name": "HeavyGun",
     "uniques": [
         "Consumes [+2] [Aluminum]",
         "Cannot attack <when fighting in [Fort] tiles",
@@ -213,7 +213,7 @@
   },
   {
     "name": "Shield I",
-    "prerequisites": ["Heavy", "Little"],
+    "prerequisites": ["HeavyGun", "LittleGun"],
     "uniques": [
         "[+15]% Strength <when defending>"
     ],
@@ -229,7 +229,7 @@
   },
   {
     "name": "LargeDiameter I",
-    "prerequisites": ["Heavy", "Little"],
+    "prerequisites": ["HeavyGun", "LittleGun"],
     "uniques": [
         "[+15]% Strength <when attacking>"
     ],
