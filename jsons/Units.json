@@ -138,7 +138,34 @@
 
 
 
-
+	{
+		"name": "Landship",//76미리
+		"unitType": "MovingCanon",
+		"movement": 4,
+		"strength": 27,
+	    "range": 7,
+	    "rangedStrength": 27,
+		"cost": 1050,
+	    "requiredResource": "Iron:3",
+		"requiredTech": "Computers",
+		"attackSound": "tankshot"
+	},
+{
+		"name": "Machine Gun",//기
+		"unitType": "MachineGun",
+		"range": 3,
+		"movement":2,
+		"strength": 10,
+		"rangedStrength": 20,
+		"cost": 400,
+		"requiredResource": "Iron:2",
+		"requiredTech": "Computers",
+		"attackSound": "machinegun",
+		"uniques":[
+		    "[2] additional attacks per turn"
+		]
+		// Upgrades to Bazooka in BNW
+	},
     {
 		"name": "Marine",
 		"unitType": "Gunpowder",
@@ -211,5 +238,18 @@
 		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
+	},
+	  {
+		"name": "Triplane",//그냥 전투기
+		"unitType": "Flight",
+		"movement": 10,
+		"strength": 12,
+		"rangedStrength": 60,
+		"range": 2,
+		"cost": 1800,
+	    "requiredResource":"Oil:3",
+		"requiredTech": "Conputers",
+	    "uniques":["[+60]% evasion"],
+		"attackSound": "machinegun"
 	}
 ]
