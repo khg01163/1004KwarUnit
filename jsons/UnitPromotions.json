@@ -30,10 +30,8 @@
   {
     "name": "AntiTank",
     "uniques": [
-        "[+300]% Strength <vs [Cannon] units> <when attacking>",
-      "[+300]% Strength <vs [Howitzer] units> <when attacking>",
-      "[+1] Range <vs [Cannon] units>",
-      "[+1] Range <vs [Howitzer] units>",
+        "[+300]% Strength <vs Armored> <when attacking>",
+      "[+1] Range <vs Armored>",
       "Consumes [+1] [Coal]"
     ],
     "unitTypes": ["Infantry"]
@@ -80,6 +78,7 @@
   {
     "name": "Heavy",
     "uniques": [
+        "[+200]% Strength <vs Armored> <when attacking>",
         "[+5] additional attacks per turn",
         "Consumes [+4] [Iron]",
         "[+100]% Strength <when defending>",
