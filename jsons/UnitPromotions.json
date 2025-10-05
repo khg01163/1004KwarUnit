@@ -11,7 +11,7 @@
       "[+2] additional attacks per turn",
       "[+1] Range",
       "[-1] Movement",
-      "Consumes [+1] [Iron]"
+      "Consumes [1] [Iron]"
     ],
     "unitTypes": ["Infantry"]
   },
@@ -22,7 +22,7 @@
       "[+100]% Strength <vs [MachineGun] units> <when attacking>",
       "[+1] Range",
       "[-1] Movement",
-      "Consumes [+1] [Coal]",
+      "Consumes [1] [Coal]",
       "Ranged attacks may be performed over obstacles"
     ],
     "unitTypes": ["Infantry"]
@@ -32,7 +32,7 @@
     "uniques": [
         "[+300]% Strength <vs Armored> <when attacking>",
       "[+1] Range <vs Armored>",
-      "Consumes [+1] [Coal]"
+      "Consumes [1] [Coal]"
     ],
     "unitTypes": ["Infantry"]
   },
@@ -80,7 +80,7 @@
     "uniques": [
         "[+200]% Strength <vs Armored> <when attacking>",
         "[+5] additional attacks per turn",
-        "Consumes [+4] [Iron]",
+        "Consumes [4] [Iron]",
         "[+100]% Strength <when defending>",
         "[+4] Range"
     ],
@@ -91,7 +91,7 @@
     "uniques": [
         "[+3] additional attacks per turn",
         "[-30]% Strength <when attacking>",
-        "Consumes [+2] [Iron]"
+        "Consumes [2] [Iron]"
     ],
     "unitTypes": ["MachineGun"]
   },
@@ -136,14 +136,14 @@
     "name": "StandardDiameter",
     "uniques": [
         "[+1] Movement",
-        "Consumes [+1] [Coal]"
+        "Consumes [1] [Coal]"
     ],
     "unitTypes": ["Howitzer"]
   },
   {
     "name": "HeavyDiameter",
     "uniques": [
-        "Consumes [+3] [Coal]",
+        "Consumes [3] [Coal]",
         "[+50]% Strength",
         "Cannot attack <when fighting in [Fort] tiles",
         "Must set up to ranged attack"
@@ -204,7 +204,7 @@
   {
     "name": "HeavyGun",
     "uniques": [
-        "Consumes [+2] [Aluminum]",
+        "Consumes [2] [Aluminum]",
         "Cannot attack <when fighting in [Fort] tiles",
         "Must set up to ranged attack",
         "[+20]% Strength <when attacking>"
