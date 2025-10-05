@@ -23,6 +23,7 @@
     "name": "Howitzer",
     "movementType": "Land",
     "uniques": [
+      "[-30]% Strength <vs Armored> <when attacking>",
       "Ranged attacks may be performed over obstacles"
     ]
   },
