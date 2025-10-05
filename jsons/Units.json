@@ -85,7 +85,7 @@
         "rangedStrength": 50,//~60
         "range": 4,
         "cost": 900,
-        "requiredResource":"Aluminium:3",
+        "requiredResource":"Aluminum:3",
         "uniques": [
             "[+30]% Strength <when defending>"
           ],
