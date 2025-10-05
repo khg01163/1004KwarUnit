@@ -13,7 +13,7 @@
       "attackSound":"shot"
     },
     {
-      "name": "Infanty",
+      "name": "Infantry",
       "unitType": "Infantry",
       "movement": 3,
       "strength": 20,
@@ -39,7 +39,7 @@
       {
       "name":"Artillery",
       "unitType": "Howitzer",
-      "movement": 3,
+      "movement": 2,
       "strength": 40,//~60
       "rangedStrength": 40,//~60
       "range": 1,
@@ -47,13 +47,12 @@
       "uniques": [
         
       ],
-      "promotions": //1,
       "attackSound":"shot"
     },
     {
       "name": "Panzer",
       "unitType": "Howitzer",
-      "movement": 3,
+      "movement": 4,
       "strength": 50,//~80
       "rangedStrength": 40,//~60
       "range": 1,
@@ -68,7 +67,7 @@
     {
         "name": "Anti-Tank Gun",
         "unitType": "Cannon",
-        "movement": 3,
+        "movement": 2,
         "strength": 35,//~50
         "rangedStrength": 35,//~45
         "range": 1,
@@ -81,14 +80,14 @@
     {
         "name": "Tank",
         "unitType": "Cannon",
-        "movement": 3,
+        "movement": 4,
         "strength": 90,//~140
         "rangedStrength": 50,//~60
-        "range": 1,
+        "range": 4,
         "cost": 900,
         "requiredResource":"Aluminium:3",
         "uniques": [
-        
+            "[+30]% Strength <when defending>"
           ],
         "promotions": ["Armored"],
         "attackSound":"shot"
@@ -114,8 +113,8 @@
       "movement": 10,
       "strength": 18,
       "rangedStrength": 22,
-      "range": 1000,
-      "cost": 300,
+      "range": 1,
+      "cost": 1000,
       "uniques": [
         "[+60]% evasion"
       ],
