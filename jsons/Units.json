@@ -1,6 +1,6 @@
 [
     {
-      "name"://보병,
+      "name": "Great War Infantry",
       "unitType": "Infantry",
       "movement": 3,
       "strength": 20,
@@ -10,11 +10,10 @@
       "uniques": [
         
       ],
-      "promotions": //1,
       "attackSound":"shot"
     },
     {
-      "name"://특공대,
+      "name": "Infanty",
       "unitType": "Infantry",
       "movement": 3,
       "strength": 20,
@@ -25,7 +24,7 @@
       "attackSound":"shot"
     },
      {
-      "name"://기관총,
+      "name": "Anti-Aircraft Gun",
       "unitType": "MachineGun",
       "movement": 3,
       "strength": 25,//~50
@@ -38,7 +37,7 @@
       "attackSound":"machinegun"
     }, 
       {
-      "name"://곡사포,
+      "name":"Artillery",
       "unitType": "Howitzer",
       "movement": 3,
       "strength": 40,//~60
@@ -52,7 +51,7 @@
       "attackSound":"shot"
     },
     {
-      "name"://자주곡사포,
+      "name": "Panzer",
       "unitType": "Howitzer",
       "movement": 3,
       "strength": 50,//~80
@@ -67,7 +66,7 @@
       "attackSound":"shot"
     },
     {
-        "name": //직사포,
+        "name": "Anti-Tank Gun",
         "unitType": "Cannon",
         "movement": 3,
         "strength": 35,//~50
@@ -77,11 +76,10 @@
         "uniques": [
         
           ],
-        "promotions": //1,
         "attackSound":"shot"
     },
     {
-        "name": //전차,
+        "name": "Tank",
         "unitType": "Cannon",
         "movement": 3,
         "strength": 90,//~140
@@ -96,7 +94,7 @@
         "attackSound":"shot"
     },
     {
-      "name"://전투기,
+      "name": "Fighter",
       "unitType": "Flight",
       "requiredResource": "Oil:3",
       "movement": 12,
@@ -110,7 +108,7 @@
       "attackSound":"shot"
     },
     {
-      "name"://공격기,
+      "name": "Great War Bomber",
       "unitType": "Flight",
       "requiredResource": "Oil:3",
       "movement": 10,
@@ -121,11 +119,10 @@
       "uniques": [
         "[+60]% evasion"
       ],
-      "promotions": //1,
       "attackSound":"shot"
     },
     {
-      "name"://폭격기,
+      "name": "Bomber",
       "unitType": "Howitzer",
       "requiredResource": "Oil:5",
       "movement": 8,
@@ -136,7 +133,6 @@
       "uniques": [
         "[+60]% evasion"
       ],
-      "promotions": //1,
       "attackSound":"shot"
     }
 ]
